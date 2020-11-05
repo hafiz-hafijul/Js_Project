@@ -1,0 +1,20 @@
+.videoCards{
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms ease-out;
+}
+
+.videoCards:hover{
+    transform: scale(1.1);
+}
+.videoCards > img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.videoCards >h2{
+    padding-top: 10px;
+}

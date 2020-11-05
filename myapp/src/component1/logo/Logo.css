@@ -1,0 +1,11 @@
+.logo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logo a {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  color: #333;
+}

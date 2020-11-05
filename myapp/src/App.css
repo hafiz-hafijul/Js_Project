@@ -1,0 +1,16 @@
+/* This css only for component */
+/* .App{
+    width: 100vw;
+    background-image: linear-gradient(to right,#051421, #042727);
+} */
+
+body{
+    background: rgba(177, 175, 175, 0.616);
+    font-family: 'Oswald', sans-serif;
+}
+
+.App{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #333;
+}

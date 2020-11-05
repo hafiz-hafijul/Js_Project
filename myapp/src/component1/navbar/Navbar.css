@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #565673;
+  text-transform: capitalize;
+  padding: 0 12px;
+}
+
+.searchbar > form {
+  display: flex;
+  justify-self: space-between;
+  margin: 0 5px;
+}
+
+.searchbox{
+    border: none;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.searchbox.active{
+    width: 150px;
+}
+
+.searchbox:focus{
+    outline: none;
+}
+
+.icon {
+    margin-top: 3px;
+    cursor: pointer;
+}
